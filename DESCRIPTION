@@ -1,11 +1,17 @@
 Package: cipherwords
 Type: Package
-Title: What the Package Does (Title Case)
+Title: simple cryptography methods for words and brief phrases
 Version: 0.1.0
-Author: Luigi Annicchiarico
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Luigi", "Annicchiarico", email = "luigi.annic@gmail.com", role = c("cre", "aut"))
+    )
+Description: simple cryptography methods for words and brief phrases.
+    More methods are added periodically.
+License: GPL-3
+URL: https://github.com/Luigi-Annic/cipherwords
+BugReports: https://github.com/Luigi-Annic/cipherwords/issues
 Encoding: UTF-8
+Depends:
+    R (>= 4.3.0)
 LazyData: true
+RoxygenNote: 7.2.3
