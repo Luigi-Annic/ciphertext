@@ -6,7 +6,9 @@
 #' @param key Word to be used as key for the encryption. If not provided, a random shuffle is performed
 #' @param seed Seed for reproducibility of the encryption if key is not provided
 #' 
-#' @return a string
+#' @return a list with custom class "cipher", which modifies the printing defaults.
+#'         The list contains the initial phrase (initial), the ciphered output (encrypted),
+#'          and the alphabet order (keyalphabet)
 #' @export
 #' 
 #' @examples
@@ -39,6 +41,5 @@ simple_substitution <- function(word, key = "", seed = sample(1:1000,1)) {
               encrypted=final, 
               keyalphabet = shuffledletters)
   class(out) <- "cipher"
-  
   return(out)
 }

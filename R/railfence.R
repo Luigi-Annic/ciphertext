@@ -11,6 +11,8 @@
 #' @examples
 #' railfence('we are discovered flee at once',3)
 #'
+#' @references https://en.wikipedia.org/wiki/Rail_fence_cipher
+#'
 
 railfence <- function(word, key) {
   w0 <- PrepCyp.w(word)
