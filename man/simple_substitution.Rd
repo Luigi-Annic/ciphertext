@@ -14,7 +14,9 @@ simple_substitution(word, key = "", seed = sample(1:1000, 1))
 \item{seed}{Seed for reproducibility of the encryption if key is not provided}
 }
 \value{
-a string
+a list with custom class "cipher", which modifies the printing defaults.
+        The list contains the initial phrase (initial), the ciphered output (encrypted),
+         and the alphabet order (keyalphabet)
 }
 \description{
 simple substitution cipher

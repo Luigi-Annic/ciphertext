@@ -21,3 +21,6 @@ rail fence cipher
 railfence('we are discovered flee at once',3)
 
 }
+\references{
+https://en.wikipedia.org/wiki/Rail_fence_cipher
+}

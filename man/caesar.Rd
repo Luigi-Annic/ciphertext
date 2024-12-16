@@ -4,14 +4,14 @@
 \alias{caesar}
 \title{caesar}
 \usage{
-caesar(word, key, mode = "encrypt")
+caesar(word, key, decrypt = FALSE)
 }
 \arguments{
 \item{word}{Word or phrase to be encrypted}
 
 \item{key}{numeric key}
 
-\item{mode}{One of "decrypt" or "encrypt". Sets whether the program encrypts or decrypts the input word}
+\item{decrypt}{If FALSE (default), the program ciphers the input word, If TRUE, the program decrypts it.}
 }
 \value{
 a string
