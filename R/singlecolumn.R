@@ -1,20 +1,24 @@
-#' @title trancipher_wordkey
+#' @title singlecolumn
 #'
 #' @description transposition ciphertext with a word as key
 #'
 #' @param word Word or phrase to be encrypted
 #' @param key numeric key
 #' 
+#' @inheritParams PrepCyp.w
+#' 
 #' @return a string
 #' @export
 #'
 #' @examples
-#' trancipher_wordkey("This is wikipedia", "cipher")
+#' singlecolumn("This is wikipedia", "cipher")
+#'
+#' @references https://www.geeksforgeeks.org/columnar-transposition-cipher/
 #'
 
-trancipher_wordkey <- function(word, key) {
+singlecolumn <- function(word, key, rm.blanks = TRUE) {
   
-  w0 <- PrepCyp.w(word)
+  w0 <- PrepCyp.w(word, rm.blanks = rm.blanks)
   
   k2 <- unique(unlist(strsplit(key,"")))
   k3 <- numeric(length(k2))
