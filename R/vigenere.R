@@ -1,6 +1,6 @@
 #' @title vigenere
 #'
-#' @description vigenere cipher is a method of encrypting alphabetic text where each letter of
+#' @description Vigenere cipher is a method of encrypting alphabetic text where each letter of
 #'  the plaintext is encoded with a different Caesar cipher, whose increment is
 #'   determined by the corresponding letter the key
 #'

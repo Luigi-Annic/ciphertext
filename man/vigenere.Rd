@@ -17,7 +17,7 @@ vigenere(word, key, decrypt = FALSE)
 a string
 }
 \description{
-vigenere cipher is a method of encrypting alphabetic text where each letter of
+Vigenere cipher is a method of encrypting alphabetic text where each letter of
  the plaintext is encoded with a different Caesar cipher, whose increment is
   determined by the corresponding letter the key
 }
