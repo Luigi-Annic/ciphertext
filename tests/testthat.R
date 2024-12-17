@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(cipherwords)
+library(ciphertext)
 
-test_check("cipherwords")
+test_check("ciphertext")
