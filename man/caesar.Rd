@@ -11,7 +11,7 @@ caesar(word, key, decrypt = FALSE)
 
 \item{key}{numeric key}
 
-\item{decrypt}{If FALSE (default), the program ciphers the input word, If TRUE, the program decrypts it.}
+\item{decrypt}{If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.}
 }
 \value{
 a string

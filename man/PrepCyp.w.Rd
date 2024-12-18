@@ -9,7 +9,7 @@ PrepCyp.w(word, rm.blanks = TRUE)
 \arguments{
 \item{word}{Word or phrase to be preprocessed}
 
-\item{rm.blanks}{Should spaces between words be removed? By default set to TRUE}
+\item{rm.blanks}{Should spaces between words be removed? By default set to `TRUE`}
 }
 \value{
 a string

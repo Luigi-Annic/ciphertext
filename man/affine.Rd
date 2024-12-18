@@ -9,11 +9,11 @@ affine(word, a, b, decrypt = FALSE)
 \arguments{
 \item{word}{Word or phrase to be encrypted}
 
-\item{a}{key1. This value must be coprime with 26}
+\item{a}{key1. This value and 26 must be coprime}
 
 \item{b}{key2 (magnitude of the shift)}
 
-\item{decrypt}{If FALSE (default), the program ciphers the input word, If TRUE, the program decrypts it.}
+\item{decrypt}{If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.}
 }
 \value{
 a string

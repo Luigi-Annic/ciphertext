@@ -5,9 +5,9 @@
 #' (26 is the number of letters in the alphabet)
 #'
 #' @param word Word or phrase to be encrypted
-#' @param a key1. This value must be coprime with 26
+#' @param a key1. This value and 26 must be coprime
 #' @param b key2 (magnitude of the shift)
-#' @param decrypt If FALSE (default), the program ciphers the input word, If TRUE, the program decrypts it.
+#' @param decrypt If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.
 #' 
 #' @return a string
 #' @export

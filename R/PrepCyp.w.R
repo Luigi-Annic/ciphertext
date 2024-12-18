@@ -3,7 +3,7 @@
 #' @description Internal function for preparing the input word (enforcing lowercase, ASCII standard, and no blanks)
 #'
 #' @param word Word or phrase to be preprocessed
-#' @param rm.blanks Should spaces between words be removed? By default set to TRUE
+#' @param rm.blanks Should spaces between words be removed? By default set to `TRUE`
 #' 
 #' @return a string
 #' @export

@@ -11,7 +11,7 @@ singlecolumn(word, key, rm.blanks = TRUE)
 
 \item{key}{numeric key}
 
-\item{rm.blanks}{Should spaces between words be removed? By default set to TRUE}
+\item{rm.blanks}{Should spaces between words be removed? By default set to `TRUE`}
 }
 \value{
 a string

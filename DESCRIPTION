@@ -1,12 +1,12 @@
 Package: ciphertext
 Type: Package
-Title: Simple Cryptography Methods for Words and Phrases
+Title: Classical Cryptography Methods for Words and Phrases
 Version: 0.1.0
 Authors@R: c(
     person("Luigi", "Annicchiarico", email = "luigi.annic@gmail.com", role = c("cre", "aut"))
     )
-Description: Simple cryptography methods for words and brief phrases.
-    Substitution and transposition methods are available, like
+Description: Classical cryptography methods for words and brief phrases.
+    Substitution, transposition and concealment (null) ciphers are available, like
     Caesar, Vigenère, Atbash, affine, simple substitution,
     rail fence, Scytale, and single column ciphers.
 License: GPL-3

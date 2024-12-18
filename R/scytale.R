@@ -5,7 +5,7 @@
 #'
 #' @param word Word or phrase to be encrypted or decrypted
 #' @param key Number of turns of the band
-#' @param decrypt If FALSE (default), the program ciphers the input word, If TRUE, the program decrypts it.
+#' @param decrypt If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.
 #' 
 #' @return a string
 #' @export
