@@ -1,6 +1,6 @@
 #' @title scytale
 #'
-#' @description The Scytale is a cipher that is based on a transposition method.
+#' @description The Scytale is a cipher based on a transposition method.
 #'  The diameter of the Scytale (the number of turns) can be regarded as the key of the cipher.
 #'
 #' @param word Word or phrase to be encrypted or decrypted
