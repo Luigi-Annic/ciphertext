@@ -6,7 +6,7 @@
 #' @param ... other arguments
 #' 
 #' @return nothing
-#' @export
+#' @noRd
 #' 
 
 

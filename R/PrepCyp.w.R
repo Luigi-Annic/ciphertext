@@ -6,7 +6,7 @@
 #' @param rm.blanks Should spaces between words be removed? By default set to `TRUE`
 #' 
 #' @return a string
-#' @export
+#' @noRd
 #'
 #' @examples
 #' PrepCyp.w("HèllO Wòrld")

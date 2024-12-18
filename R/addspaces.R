@@ -7,7 +7,7 @@
 #' @param L number of letters before a new space
 #' 
 #' @return a string
-#' @export
+#' @noRd
 #'
 #' @examples
 #' addspaces("abcdefghijklm", 5)

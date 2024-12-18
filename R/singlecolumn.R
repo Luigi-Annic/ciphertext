@@ -4,8 +4,7 @@
 #'
 #' @param word Word or phrase to be encrypted
 #' @param key numeric key
-#' 
-#' @inheritParams PrepCyp.w
+#' @param rm.blanks Should spaces between words be removed? By default set to `TRUE`
 #' 
 #' @return a string
 #' @export
