@@ -8,7 +8,7 @@ Authors@R: c(
 Description: Classical cryptography methods for words and brief phrases.
     Substitution, transposition and concealment (null) ciphers are available, like
     Caesar, Vigenère, Atbash, affine, simple substitution,
-    rail fence, Scytale, and single column ciphers.
+    rail fence, Scytale, single column, and Polybius ciphers.
 License: GPL-3
 URL: https://github.com/Luigi-Annic/ciphertext
 BugReports: https://github.com/Luigi-Annic/ciphertext/issues
