@@ -13,6 +13,7 @@
 #' 
 #' @examples
 #' simple_substitution("hello world", seed = 1234)
+#' simple_substitution("hello world", key = "zebras")
 #'
 
 simple_substitution <- function(word, key = "", seed = sample(1:1000,1)) {

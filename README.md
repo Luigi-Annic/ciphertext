@@ -12,6 +12,7 @@ The methods currently implemented are:
  - Atbash
  - Simple substitution
  - Polybius
+ - Playfair
  
 2) Transposition ciphers
 

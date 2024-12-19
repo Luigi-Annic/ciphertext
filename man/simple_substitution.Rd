@@ -23,5 +23,6 @@ simple substitution cipher
 }
 \examples{
 simple_substitution("hello world", seed = 1234)
+simple_substitution("hello world", key = "zebras")
 
 }
