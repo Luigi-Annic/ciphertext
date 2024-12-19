@@ -22,7 +22,8 @@ a string
 playfair encryption
 }
 \examples{
-playfair("instruments", "monarchy", added_letter = "z")
+playfair( "instruments", "monarchy", added_letter = "z")
+playfair("gatlmzclrqtx", "monarchy", added_letter = "z", decrypt = TRUE)
 
 }
 \references{
