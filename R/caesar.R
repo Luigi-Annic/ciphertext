@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' caesar("Hello", 1, "encrypt")
+#' caesar("Hello", 1)
 #'
 
 caesar <- function(word, key, decrypt = FALSE) {
@@ -21,7 +21,7 @@ caesar <- function(word, key, decrypt = FALSE) {
   for (i in (1: length(w0))) {
     pos <- which(w0[i] == letters)
     newpos<- pos+ ifelse(decrypt == FALSE , key, -key)
-    finalpos0 <- ifelse(newpos>length(letters), newpos - length(letters), newpos) # correcting values >26
+    finalpos0 <- ifelse(newpos>length(letters), newpos%%26, newpos) # correcting values >26
     finalpos <- ifelse(finalpos0 < 1, finalpos0+length(letters), finalpos0)       # correcting values <0
     out[i] = letters[finalpos]
   }

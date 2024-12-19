@@ -5,7 +5,6 @@
 #' @param x previous object
 #' @param ... other arguments
 #' 
-#' @return nothing
 #' @noRd
 #' 
 

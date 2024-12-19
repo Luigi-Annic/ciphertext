@@ -22,6 +22,7 @@ with I in order to get 25 letters and create a 5x5 matrix.
 }
 \examples{
 polybius("hello world")
+polybius("23 15 31 31 34 52 34 42 31 14", decrypt = TRUE)
 
 }
 \references{

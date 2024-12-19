@@ -1,6 +1,6 @@
 #' @title simple_substitution
 #'
-#' @description simple substitution cipher
+#' @description simple substitution cipher. Each letter is monoalphabetically associated with a different one used for the encryption.
 #'
 #' @param word Word or phrase to be encrypted
 #' @param key Word to be used as key for the encryption. If not provided, a random shuffle is performed
@@ -17,8 +17,6 @@
 #'
 
 simple_substitution <- function(word, key = "", seed = sample(1:1000,1)) {
-  
-
   
   w0 <- tolower(unlist(strsplit(word, "")))
   w1 <- c()

@@ -19,7 +19,7 @@ a list with custom class "cipher", which modifies the printing defaults.
          and the alphabet order (keyalphabet)
 }
 \description{
-simple substitution cipher
+simple substitution cipher. Each letter is monoalphabetically associated with a different one used for the encryption.
 }
 \examples{
 simple_substitution("hello world", seed = 1234)

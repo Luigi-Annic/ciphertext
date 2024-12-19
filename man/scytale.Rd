@@ -17,7 +17,7 @@ scytale(word, key, decrypt = FALSE)
 a string
 }
 \description{
-The Scytale is a cipher based on a transposition method.
+The Scytale is a transposition cipher
  The diameter of the Scytale (the number of turns) can be regarded as the key of the cipher.
 }
 \examples{

@@ -1,8 +1,7 @@
 #' @title vigenere
 #'
 #' @description Vigenère cipher is a method of encrypting alphabetic text where each letter of
-#'  the plaintext is encoded with a different Caesar cipher, whose increment is
-#'   determined by the corresponding letter the key
+#'  the plaintext is encoded with a different Caesar cipher, whose increment is determined by the corresponding letter the key
 #'
 #' @param word Word or phrase to be encrypted
 #' @param key character key

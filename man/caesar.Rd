@@ -20,6 +20,6 @@ a string
 caesar encryption
 }
 \examples{
-caesar("Hello", 1, "encrypt")
+caesar("Hello", 1)
 
 }

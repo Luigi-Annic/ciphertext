@@ -1,6 +1,7 @@
 #' @title railfence
 #'
-#' @description rail fence cipher
+#' @description The rail fence is a transposition cipher where the text is 
+#' written upwards and downwards diagonally (zigzag) on the rails of the fence
 #'
 #' @param word Word or phrase to be encrypted
 #' @param key numeric key (number of rails)

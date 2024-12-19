@@ -9,7 +9,7 @@ singlecolumn(word, key, rm.blanks = TRUE)
 \arguments{
 \item{word}{Word or phrase to be encrypted}
 
-\item{key}{numeric key}
+\item{key}{word key: for example, the key "bcea" suggests that the column order is "2-3-4-1"}
 
 \item{rm.blanks}{Should spaces between words be removed? By default set to `TRUE`}
 }
@@ -17,7 +17,8 @@ singlecolumn(word, key, rm.blanks = TRUE)
 a string
 }
 \description{
-transposition ciphertext with a word as key
+In a columnar transposition cipher, the message is written out in rows of a fixed length,
+ and then read out again column by column. The order of the column follows the alphabetcial order of the letters present in the key
 }
 \examples{
 singlecolumn("This is wikipedia", "cipher")

@@ -17,11 +17,11 @@ nullcipher(phrase, index, decrypt = TRUE)
 a string
 }
 \description{
-A null cipher is an encryption where the plaintext is mixed with a
- large amount of non-cipher material (decoy). For now, decryption only is possible with this function
+A null cipher is an encryption method where the plaintext is mixed with a
+ large amount of non-cipher material (decoy).
 }
 \examples{
-nullcipher("handy ended literally pop", c(1,2,3))
+nullcipher("handy set false posts", c(1,2,3))
 
 }
 \references{

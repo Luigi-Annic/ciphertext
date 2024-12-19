@@ -7,11 +7,11 @@
 playfair(word, key, added_letter = "x", decrypt = FALSE)
 }
 \arguments{
-\item{word}{Word or phrase to be encrypted}
+\item{word}{Word or phrase to be encrypted or decrypted}
 
 \item{key}{Word for creating the modified Polybius square}
 
-\item{added_letter}{Letter to be added in case 2 letters in a pair are identical; usually "x" is used}
+\item{added_letter}{Letter to be added in case two letters of a pair are identical; usually "x" is used}
 
 \item{decrypt}{If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.}
 }
@@ -19,7 +19,8 @@ playfair(word, key, added_letter = "x", decrypt = FALSE)
 a string
 }
 \description{
-playfair encryption
+The Playfair cipher is a symmetric method which encrypts pairs of letters
+ using a modified Polybius square
 }
 \examples{
 playfair( "instruments", "monarchy", added_letter = "z")

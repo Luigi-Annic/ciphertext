@@ -1,18 +1,17 @@
 #' @title nullcipher
 #'
-#' @description A null cipher is an encryption where the plaintext is mixed with a
-#'  large amount of non-cipher material (decoy). For now, decryption only is possible with this function
+#' @description A null cipher is an encryption method where the plaintext is mixed with a
+#'  large amount of non-cipher material (decoy). 
 #'
 #' @param phrase Word or phrase to be decrypted
 #' @param index letter of interest for each word in the phrase. Also a pattern vector can be entered.
-#' 
 #' @param decrypt Only Decryption is possible for now, but will be updated in the future
 #' 
 #' @return a string
 #' @export
 #'
 #' @examples
-#' nullcipher("handy ended literally pop", c(1,2,3))
+#' nullcipher("handy set false posts", c(1,2,3))
 #'
 #' @references https://en.wikipedia.org/wiki/Null_cipher
 #'

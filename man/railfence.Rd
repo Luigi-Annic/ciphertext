@@ -15,7 +15,8 @@ railfence(word, key)
 a string
 }
 \description{
-rail fence cipher
+The rail fence is a transposition cipher where the text is 
+written upwards and downwards diagonally (zigzag) on the rails of the fence
 }
 \examples{
 railfence('we are discovered flee at once',3)

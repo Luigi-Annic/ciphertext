@@ -1,10 +1,11 @@
 #' @title playfair
 #'
-#' @description playfair encryption
+#' @description The Playfair cipher is a symmetric method which encrypts pairs of letters
+#'  using a modified Polybius square
 #'
-#' @param word Word or phrase to be encrypted
+#' @param word Word or phrase to be encrypted or decrypted
 #' @param key Word for creating the modified Polybius square
-#' @param added_letter Letter to be added in case 2 letters in a pair are identical; usually "x" is used
+#' @param added_letter Letter to be added in case two letters of a pair are identical; usually "x" is used
 #' @param decrypt  If `FALSE` (default), the program ciphers the input word, If `TRUE`, the program decrypts it.
 #' 
 #' @return a string

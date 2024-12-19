@@ -4,7 +4,7 @@
 #'  the alphabet and maps it to its reverse. 
 #'  It is a particular case of the affine cipher, with `a`=`b`= (`m`-1). As `m` is the number
 #'  of letters and is equal to 26, it means that `a` = `b` = 25.
-#'  Encrypting and decrypting are the same for this cipher.
+#'  Encrypting and decrypting are not separate for this cipher.
 #'
 #' @param word Word or phrase to be encrypted
 #' 

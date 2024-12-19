@@ -13,6 +13,7 @@
 #'
 #' @examples
 #' polybius("hello world")
+#' polybius("23 15 31 31 34 52 34 42 31 14", decrypt = TRUE)
 #' 
 #' @references https://en.wikipedia.org/wiki/Polybius_square
 #'

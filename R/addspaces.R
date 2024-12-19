@@ -6,7 +6,6 @@
 #' @param string phrase 
 #' @param L number of letters before a new space
 #' 
-#' @return a string
 #' @noRd
 #'
 #' @examples

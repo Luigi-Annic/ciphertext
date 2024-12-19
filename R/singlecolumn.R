@@ -1,9 +1,10 @@
 #' @title singlecolumn
 #'
-#' @description transposition ciphertext with a word as key
+#' @description In a columnar transposition cipher, the message is written out in rows of a fixed length,
+#'  and then read out again column by column. The order of the column follows the alphabetcial order of the letters present in the key
 #'
 #' @param word Word or phrase to be encrypted
-#' @param key numeric key
+#' @param key word key: for example, the key "bcea" suggests that the column order is "2-3-4-1"
 #' @param rm.blanks Should spaces between words be removed? By default set to `TRUE`
 #' 
 #' @return a string
