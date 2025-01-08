@@ -4,7 +4,7 @@
 \alias{bifid_delastelle}
 \title{bifid_delastelle}
 \usage{
-bifid_delastelle(input, key = "", period = 100)
+bifid_delastelle(input, key = "", period = 100, encrypt = TRUE)
 }
 \arguments{
 \item{input}{Word or phrase to be encrypted,
@@ -13,6 +13,8 @@ or character vector with the sequence of coordinate numbers if we need to decryp
 \item{key}{key Word for creating the modified Polybius square}
 
 \item{period}{period length for splitting the input phrase. If greater or equal to the length of the input then the split is not executed}
+
+\item{encrypt}{If `TRUE` (default), the program ciphers the input word, If `FALSE`, the program decrypts it.}
 }
 \value{
 a string
@@ -22,7 +24,8 @@ The bifid cipher is an encryption method that combines a substitution with a Pol
 It was invented by Felix Delastelle.
 }
 \examples{
-bifid_delastelle("dcode", key = "secret", period = 3)
+bifid_delastelle("dcode", key = "secret", period = 3, encrypt = TRUE)
+bifid_delastelle("apiai", key = "secret", period = 3, encrypt = FALSE)
 
 }
 \references{
