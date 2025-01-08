@@ -2,6 +2,7 @@
 
 export(affine)
 export(atbash)
+export(bifid_delastelle)
 export(caesar)
 export(nullcipher)
 export(playfair)
