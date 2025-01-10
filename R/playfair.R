@@ -19,7 +19,7 @@
 #' @references https://en.wikipedia.org/wiki/Playfair_cipher
 #'
 
-playfair <- function(word, key, added_letter = "x", encrypt = TRUE) {
+playfair <- function(word, key = "", added_letter = "x", encrypt = TRUE) {
   # Exclude j from both letter and alphabet
   key0j <- PrepCyp.w(key)
   

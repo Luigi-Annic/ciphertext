@@ -4,7 +4,7 @@
 \alias{caesar}
 \title{caesar}
 \usage{
-caesar(word, key, encrypt = TRUE)
+caesar(word, key = 1, encrypt = TRUE)
 }
 \arguments{
 \item{word}{Word or phrase to be encrypted}

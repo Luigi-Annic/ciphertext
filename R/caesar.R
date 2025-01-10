@@ -14,7 +14,7 @@
 #' caesar("Hello", 1)
 #'
 
-caesar <- function(word, key, encrypt = TRUE) {
+caesar <- function(word, key = 1, encrypt = TRUE) {
   
   w0 <- PrepCyp.w(word)
   

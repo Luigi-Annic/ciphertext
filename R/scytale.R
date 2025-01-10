@@ -17,7 +17,7 @@
 #' @references https://en.wikipedia.org/wiki/Scytale
 #'
 
-scytale <- function(word, key, encrypt = TRUE) {
+scytale <- function(word, key = 3, encrypt = TRUE) {
   w0 <- PrepCyp.w(word)
   
   length(w0)

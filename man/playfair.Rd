@@ -4,7 +4,7 @@
 \alias{playfair}
 \title{playfair}
 \usage{
-playfair(word, key, added_letter = "x", encrypt = TRUE)
+playfair(word, key = "", added_letter = "x", encrypt = TRUE)
 }
 \arguments{
 \item{word}{Word or phrase to be encrypted or decrypted}

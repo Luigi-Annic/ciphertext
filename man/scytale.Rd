@@ -4,7 +4,7 @@
 \alias{scytale}
 \title{scytale}
 \usage{
-scytale(word, key, encrypt = TRUE)
+scytale(word, key = 3, encrypt = TRUE)
 }
 \arguments{
 \item{word}{Word or phrase to be encrypted or decrypted}
